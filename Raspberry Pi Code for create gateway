@@ -1,3 +1,7 @@
+Equipment need: A LoRa concentrator board, to receive LoRaWAN packets. The most common board used is the iMST iC880a board.
+		An antenna, to amplify the signal.
+		A Raspberry Pi.
+
 // Setting up the software
 local $ ssh pi@raspberrypi.local
 $ sudo raspi-config
