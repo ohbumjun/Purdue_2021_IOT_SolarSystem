@@ -1,0 +1,37 @@
+Equipment need: A LoRa concentrator board, to receive LoRaWAN packets. The most common board used is the iMST iC880a board.
+		An antenna, to amplify the signal.
+		A Raspberry Pi.
+
+// Setting up the software
+local $ ssh pi@raspberrypi.local
+$ sudo raspi-config
+$ sudo dpkg-reconfigure locales
+$ sudo dpkg-reconfigure tzdata
+
+// Make sure have an updated installation and install
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install git
+
+// Create new user for TTN and add it to sudoers
+$ sudo adduser ttn
+$ sudo adduser ttn sudo
+
+// To prevent the system asking root password regularly, add TTN user in sudoers file
+$ sudo visudo
+
+//Add this command into the file
+ttn ALL=(ALL) NOPASSWD: ALL
+
+// Configure the wifi credentials
+$ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+// Add this command at end of the file
+	network={
+	    ssid="The_SSID_of_your_wifi"
+	    psk="Your_wifi_password"
+      
+// Clone the installer and start the installation
+$ git clone -b spi https://github.com/ttn-zh/ic880a-gateway.git ~/ic880a-gateway
+$ cd ~/ic880a-gateway
+$ sudo ./install.sh spi
