@@ -1,0 +1,59 @@
+Hi I Am Bumjun Oh from Team Project 4
+Will start the presentation
+
+Firstly, I will Introduce What we have done
+during last week
+
+1) We worked on Basic setup
+2) Changed our goal
+3) Puchased Equipment
+
+1) We Worked on Basic setup
+ex) prepare server, db, aws instance, deployment etc
+2) We changed our goal :
+from analying datas to network communction between remote places
+3) Purchased basic equipments for our projects
+- based on the purchased equipments,  it seems like we will
+be working on experiment in a small scale
+
+----------------------------------------------------------------------------------------
+My presentation consists of 3 main contents
+1) introducing basic setup
+2) short term goal of our project
+3) Basic Concept of Solar Controller, Raspberry Pi, & Interaction 
+between them
+
+>> 1) Basic Set-up
+- we worked basic server,db and deployed on the web
+on which we are going to work on
+
+>> 2) Short Term Goal
+- we will be focusing on a way to communitcate between romote places
+- There are different types of network technology that allows communication
+between device in different areas
+ex) Wi-fi, BlueTooth, LTE
+common problem of these technologies are that they are expensive,
+or they work in short-distances
+
+since we want to make a project that monitors the
+health of solar power system from very far place , 
+we will be using LoRa .
+
+Lora is one of network technology that allows communications
+between devices in remote place,
+and rather than buying additional equipments for Lora,
+we will try to make our own LoRa gateway
+
+>> 3) Lastly, About Solar controller & Rasberry pi
+- Hardship we faced is, how we are going to connect rasberry pi, to solar charge 
+contoller 
+In order to make,organize datas from controller, we should find a way
+for rasberry pi device to accept the data from controller,
+but we are having a hard time finding a appropriate way
+
+wonder whether there is additional cable needed or
+special type of controoler that is suitable for connecting with Rasberry pi device
+
+Advice 
+
+---------------------------------------------------------------------------------------
