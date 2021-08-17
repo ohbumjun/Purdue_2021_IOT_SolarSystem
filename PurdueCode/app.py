@@ -4,7 +4,7 @@ from flask import Flask, render_template, jsonify, request
 app = Flask(__name__)
 
 # mongoDB는 27017 포트로 돌아갑니다.
-client = MongoClient('mongodb://test:test@3.141.9.169', 27017)
+client = MongoClient('mongodb://test:test@18.116.64.150', 27017)
 db = client.dbjungle  # 'dbsparta'라는 이름의 db를 만들거나 사용합니다.
 
 
