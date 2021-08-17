@@ -2,8 +2,14 @@
 > Application that provides a way to manage the remote
 Photovoltaic(PV) solar panels in real-time
 
+<br/>
+<br/>
+
 ## Link
 [Application Link](http://18.116.64.150:1880/ui/)
+
+<br/>
+<br/>
 
 ## BackGround
 > Amongst renewable energy sources, solar power energy is gaining popularity thanks to low carbon dioxide emission and increasing efficiency. 
@@ -15,6 +21,9 @@ Photovoltaic(PV) solar panels in real-time
 > Our Application provide a way to interact and maintain an off-grid solar energy system from many miles away based on IOT Technology.
 
 
+<br/>
+<br/>
+
 ## Environment Setup
 
 ### Solar Panel
@@ -25,6 +34,16 @@ Photovoltaic(PV) solar panels in real-time
 
 ### AWS Ubuntu EC2
 
+> Buy AWS Ubuntu EC2 Instance
+![](./README_Images/UbuntuBuy1.png)
+
+> DownLoad your .pem key for Instance
+![](./README_Images/UbuntuPemKey.png)
+
+> Edit Inbound Rule 
+You have to open the port 1880 for Ip from anywhere
+![](./README_Images/UbuntuEditBoundRule.png)
+
 ### Running Node-Red on AWS EC2 with Ubuntu
 
 > Enter your AWS Instance
@@ -34,6 +53,16 @@ ssh -i "pem key" ubuntu@"aws public IP"
 
 > Make Virtual Environment Folder
 ```python
+# setting up locale to prevent erro 
+export LC_ALL="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+
+sudo dpkg-reconfigure locales
+# All locales --> en_US.UTF-8
+
+sudo apt-get update
+
+# make virtual folder 
 python3 -m venv ./myenv
 ```
 
@@ -66,10 +95,16 @@ pm2 startup
 node-red
 ```
 
-
 _For more examples and usage, please refer to the [Running on AWS EC2 with Ubuntu][https://nodered.org/docs/getting-started/aws]._
 
+<br/>
+<br/>
+
 ## Flow Diagram
+
+
+<br/>
+<br/>
 
 ## Usage Example
 
@@ -84,6 +119,10 @@ A few motivating and useful examples of how your product can be used. Spice this
 ![](./README_Images/NodeRed_Gauge.png)
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
+
+
+<br/>
+<br/>
 
 ## Development setup
 
