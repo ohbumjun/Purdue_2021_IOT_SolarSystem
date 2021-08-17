@@ -38,9 +38,15 @@ Photovoltaic(PV) solar panels in real-time
 
 ![](./README_Images/UbuntuBuy1.png)
 
+<br/>
+<br/>
+
 > DownLoad your .pem key for Instance
 
 ![](./README_Images/UbuntuPemKey.png)
+
+<br/>
+<br/>
 
 > Edit Inbound Rule 
 
@@ -53,6 +59,8 @@ You have to open the port 1880 for Ip from anywhere
 ```git
 ssh -i "pem key" ubuntu@"aws public IP"
 ```
+<br/>
+<br/>
 
 > Make Virtual Environment Folder
 ```python
@@ -69,10 +77,16 @@ sudo apt-get update
 python3 -m venv ./myenv
 ```
 
+<br/>
+<br/>
+
 > Activate Virtual Environment
 ```git
 . myenv/bin/activate
 ```
+
+<br/>
+<br/>
 
 > Setup Node-Red
 
@@ -81,6 +95,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs build-essential
 sudo npm install -g --unsafe-perm node-red
 ```
+
+<br/>
+<br/>
 
 > Get Node-Red to start automatically
 whenever aws instance is restarted
@@ -91,6 +108,9 @@ pm2 start `which node-red` -- -v
 pm2 save
 pm2 startup
 ```
+
+<br/>
+<br/>
 
 > start Node-Red in your instance
 
@@ -130,12 +150,14 @@ Most Recent data is shown every 30 seconds.
 <br/>
 
 > [1] Main Tracer
+
 ![](./README_Images/NodeRed_MainTracer.png)
 
 <br/>
 <br/>
 
 > [2] Gauge
+
 ![](./README_Images/NodeRed_Gauge.png)
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
@@ -143,6 +165,24 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 <br/>
 <br/>
+
+## Built With
+
+* [yhb1834](https://github.com/yhb1834)
+  * write a Node-Red Code
+  * make Flow-Diagram
+* [ohbumjun](https://github.com/ohbumjun)
+  * write a part of Node-Red Code
+  * prepare, run AWS EC2 Ubuntu Server
+* [JackWanggg](https://github.com/JackWanggg)
+  * write a RasberryPi code
+* [darksilicon13](https://github.com/darksilicon13)
+  * write RasberrPi Code
+  * worked upon Solar panel, Rasberry Pi
+  * worked upon setting up MongoDB
+* [SangjeJoeng](https://github.com/SangjeJoeng)
+  * write a RasberryPi code
+  
 
 ## Development setup
 
