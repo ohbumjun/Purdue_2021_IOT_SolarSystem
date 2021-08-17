@@ -35,12 +35,15 @@ Photovoltaic(PV) solar panels in real-time
 ### AWS Ubuntu EC2
 
 > Buy AWS Ubuntu EC2 Instance
+
 ![](./README_Images/UbuntuBuy1.png)
 
 > DownLoad your .pem key for Instance
+
 ![](./README_Images/UbuntuPemKey.png)
 
 > Edit Inbound Rule 
+
 You have to open the port 1880 for Ip from anywhere
 ![](./README_Images/UbuntuEditBoundRule.png)
 
