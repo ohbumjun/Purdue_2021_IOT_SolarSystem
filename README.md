@@ -22,6 +22,8 @@ Our Application provide a way to interact and maintain an off-grid solar energy 
 <br/>
 <br/>
 
+**
+
 ## Environment Setup
 
 
@@ -76,8 +78,7 @@ python3 -m pip install pymongo[srv]
 [5]. Open 'prototype.py' and run the module. 
 
 
-### Lora NetWor
-k
+### Lora NetWork
 <br/>
 <br/>
 
@@ -101,7 +102,6 @@ k
 
 You have to open the port 1880 for Ip from anywhere
 ![](./README_Images/UbuntuEditBoundRule.png)
-
 
 
 
@@ -178,6 +178,9 @@ _For more examples and usage, please refer to the [Running on AWS EC2 with Ubunt
 <br/>
 <br/>
 
+
+**
+
 ## Flow Diagram
 
 
@@ -247,23 +250,7 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
   * write a RasberryPi code
   
 
-## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
-
-
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
