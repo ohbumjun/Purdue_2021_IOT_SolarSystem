@@ -18,15 +18,20 @@ Photovoltaic(PV) solar panels are one of the ways to harness solar power into re
 
 However, due to the tendency of solar energy systems being far away from the electricity users, energy health monitoring in real time and maintaining recovery from faults is the key goal. 
 
-Our Application provide a way to interact and maintain an off-grid solar energy system from many miles away based on IOT Technology.
-
-
+Our Application provide a way to interact and maintain an off-grid solar energy system from many miles away based on IOT Technolo
 <br/>
 <br/>
 
 ## Environment Setup
 
+
+<br/>
+<br/>
+
 ### Solar Panel
+
+<br/>
+<br/>
 
 ### Rasberry pi
 
@@ -54,7 +59,9 @@ six            1.16.0
 Make sure to install the driver before connecting the cable. 
 
 _please refer to the [Installing the Driver][https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all]._
-				
+
+
+<br/>
 
 [3]. The Database address written in the 'prototype.py' script won't work since invalid id and password are written.
 
@@ -69,9 +76,12 @@ python3 -m pip install pymongo[srv]
 [5]. Open 'prototype.py' and run the module. 
 
 
-### Lora NetWork
+### Lora NetWor
+k
+<br/>
+<br/>
 
-### AWS Ubuntu EC2
+### Setting Up AWS Ubuntu EC2
 
 > Buy AWS Ubuntu EC2 Instance
 
@@ -91,6 +101,12 @@ python3 -m pip install pymongo[srv]
 
 You have to open the port 1880 for Ip from anywhere
 ![](./README_Images/UbuntuEditBoundRule.png)
+
+
+
+
+<br/>
+<br/>
 
 ### Running Node-Red on AWS EC2 with Ubuntu
 
@@ -200,6 +216,9 @@ Most Recent data is shown every 30 seconds.
 ![](./README_Images/NodeRed_Gauge.png)
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
+
+<br/>
+<br/>
 
 > Code
 ```js
