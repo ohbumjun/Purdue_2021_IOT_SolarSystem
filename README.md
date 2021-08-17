@@ -2,16 +2,18 @@
 > Application that provides a way to manage the remote
 Photovoltaic(PV) solar panels in real-time
 
+## Link
+[Application Link](http://18.116.64.150:1880/ui/)
+
 ## BackGround
 > Amongst renewable energy sources, solar power energy is gaining popularity thanks to low carbon dioxide emission and increasing efficiency. 
 
 > Photovoltaic(PV) solar panels are one of the ways to harness solar power into renewable energy with only a major initial cost but low maintenance. 
 
-However, due to the tendency of solar energy systems being far away from the electricity users, energy health monitoring in real time and maintaining recovery from faults is the key goal. 
+> However, due to the tendency of solar energy systems being far away from the electricity users, energy health monitoring in real time and maintaining recovery from faults is the key goal. 
 
-Our Application provide a way to interact and maintain an off-grid solar energy system from many miles away based on IOT Technology.
+> Our Application provide a way to interact and maintain an off-grid solar energy system from many miles away based on IOT Technology.
 
-![](header.png)
 
 ## Environment Setup
 
@@ -43,9 +45,9 @@ python3 -m venv ./myenv
 > Setup Node-Red
 
 ```git
- curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-   sudo apt-get install -y nodejs build-essential
-   sudo npm install -g --unsafe-perm node-red
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs build-essential
+sudo npm install -g --unsafe-perm node-red
 ```
 
 > Get Node-Red to start automatically
@@ -53,9 +55,9 @@ whenever aws instance is restarted
 
 ```git
 sudo npm install -g --unsafe-perm pm2
-   pm2 start `which node-red` -- -v
-   pm2 save
-   pm2 startup
+pm2 start `which node-red` -- -v
+pm2 save
+pm2 startup
 ```
 
 > start Node-Red in your instance
