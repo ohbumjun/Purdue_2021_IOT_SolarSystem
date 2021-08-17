@@ -113,12 +113,29 @@ _For more examples and usage, please refer to the [Running on AWS EC2 with Ubunt
 
 ### Node-Red
 
+> Node-RED displays data saved in MongoDB
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+> The Node-RED pages consist of 1) Main tracer and 2) Gauge. 
+
+> Main tracer shows the real time data from the MPPT controller. 
+Data mainly consist of Solar, Battery, DC Load, Controller, Energy Information. 
+Real-time Voltage data of PV, Battery, DC Load are shown as Chart also so that use can compare them easily. 
+
+> Gauge shows outward humidity and temperature data. 
+User can also see the real-time change of data with Chart below the page.
+Displayed data is updated per 30 seconds, according to the timestamp. 
+Most Recent data is shown every 30 seconds.
+
 
 <br/>
 
+> [1] Main Tracer
 ![](./README_Images/NodeRed_MainTracer.png)
+
+<br/>
+<br/>
+
+> [2] Gauge
 ![](./README_Images/NodeRed_Gauge.png)
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
