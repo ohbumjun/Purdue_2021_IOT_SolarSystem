@@ -182,6 +182,7 @@ _For more examples and usage, please refer to the [Running on AWS EC2 with Ubunt
 **
 
 ## Flow Diagram
+<img width="638" alt="스크린샷 2021-08-17 오후 10 37 50" src="https://user-images.githubusercontent.com/55439296/129735819-2e5ad800-5d7d-407b-b94b-8bceb7eb5974.png">
 
 
 <br/>
