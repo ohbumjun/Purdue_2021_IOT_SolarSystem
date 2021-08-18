@@ -190,8 +190,9 @@ _For more examples and usage, please refer to the [Running on AWS EC2 with Ubunt
 
 ## Flow Diagram
 ![](./README_Images/flowchart.png)
+<br/>
 In this system, there is a MPPT controller to control the Solar panel. And the controller is connected with Raspberry pi to send data and monitor the system. 
-DHT11 sensor is on the raspberry pi so that can collect another data like humidity and temperature. Our idea was using LoRa network but there's a limit to implementation, so it communicate via wifi in real. After the real time data are selected on the mongodb, node-red shows the data from the controller and mongodb. This monitoring system can be accessed by usin AWS.
+DHT11 sensor is on the raspberry pi so that can collect another data like humidity and temperature. Our idea was using LoRa network but there's a limit to implementation, so it communicate via wifi in real. After the real time data are selected on the mongodb, node-red shows the data from the controller and mongodb. This monitoring system can be accessed by using AWS.
 
 <br/>
 <br/>
