@@ -30,9 +30,13 @@ Our Application provide a way to interact and maintain an off-grid solar energy 
 <br/>
 
 ### Solar Panel Related Equipment
-- Rasberry P
-
-i 
+- Rasberry Pi
+- Photovoltaic Solar Panel
+- Epever Xtra3210N ( MPPT Solar Charge Controller )
+- 12v 2a Lead-Acid Battery
+- Cat. 5e Cable
+- Pin Layout Of CAT.5e Cable
+- Usb to R5485 module
 
 ![](./README_Images/RasberrypiEquipment.png)
 
