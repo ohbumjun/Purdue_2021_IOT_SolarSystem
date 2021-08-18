@@ -425,7 +425,6 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ![](./README_Images/NodeRedCode.png)
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
 
 <br/>
 <br/>
