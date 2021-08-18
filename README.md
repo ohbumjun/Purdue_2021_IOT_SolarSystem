@@ -22,7 +22,6 @@ Our Application provide a way to interact and maintain an off-grid solar energy 
 <br/>
 <br/>
 
-**
 
 ## Environment Setup
 
@@ -77,10 +76,6 @@ python3 -m pip install pymongo[srv]
 
 [5]. Open 'prototype.py' and run the module. 
 
-<br/>
-<br/>
-
-### Lora NetWork
 <br/>
 <br/>
 
@@ -438,7 +433,5 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
   * write RasberrPi Code
   * worked upon Solar panel, Rasberry Pi
   * worked upon setting up MongoDB
-* [SangjeJoeng](https://github.com/SangjeJoeng)
-  * write a RasberryPi code
   
 
