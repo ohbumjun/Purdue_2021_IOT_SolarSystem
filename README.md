@@ -6,8 +6,9 @@ Photovoltaic(PV) solar panels in real-time
 <br/>
 
 ## Link
-[Python Console Extracting Solor Info from Solar Controller](https://youtu.be/y-3-yuzol0E)
-[NODE_RED Application showing real-time Solar Info from Remote Solar Controller](https://youtu.be/I5vlbfuIEDY)
+[1) Python Console Extracting Solor Info from Solar Controller](https://youtu.be/y-3-yuzol0E)
+
+[2) NODE_RED Application showing real-time Solar Info from Remote Solar Controller](https://youtu.be/I5vlbfuIEDY)
 
 <br/>
 <br/>
